@@ -33,7 +33,6 @@ export const sessions = pgTable("sessions", {
     sessionToken: varchar("sessionToken", { length: 255 }),
 });
 
-// Verification tokens table
 export const verification_tokens = pgTable(
   "verification_token",
   {
